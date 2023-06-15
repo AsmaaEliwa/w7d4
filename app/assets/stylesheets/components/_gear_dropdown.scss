@@ -1,14 +1,26 @@
 // Use the gear_dropdown.png screenshot as a style guide
 
 @use '../variables' as *;
-.dropdown-subtitle li{
+.hiden li{
+    position: relative;
+}
+.dropdown-subtitle ul{
     display: none;
-    
-    }
-.editions li{
-display: none;
+
+}
+// .hiden{
+//     display: none;
+//     background-color: red;
+// }
+
+.gear_dropdown {
+   position: absolute;
+    top:auto ;
+    right:auto;
+    background-color: aqua;
 }
 
 #gear_dropdown:hover li{
-display: inline;
+    display: block;
 }
+
