@@ -1,0 +1,60 @@
+@use '../variables' as *;
+
+.main-nav {
+    display: flex;
+    justify-content:space-between;
+  padding: 5px;
+
+border-radius: 5px;
+background-clip: padding-box; 
+//   box-shadow: inset 50px palevioletred;
+  box-shadow: 10px 5px 5px rgb(199, 197, 198);
+
+}
+
+.left-nav > ul,
+.right-nav > ul {
+    display: flex;
+    align-items:start;
+  
+}
+
+.left-nav {
+
+  > ul {
+    > li {
+        text-transform:capitalize;
+        margin: 5px;
+    }
+  }
+
+  span {
+    
+  }
+}
+
+.right-nav  {
+  > ul {
+    > li:hover {
+      background-color: bisque;
+    }
+
+    > li {
+        margin: 5px;
+      
+    }
+  }
+  
+  i {
+    font-size:20px;
+    align-items:center;
+  }
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+    background-color: $lightest-gray ;
+  
+}
+
+    

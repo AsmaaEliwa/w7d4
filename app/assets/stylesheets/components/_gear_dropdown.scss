@@ -1,0 +1,14 @@
+// Use the gear_dropdown.png screenshot as a style guide
+
+@use '../variables' as *;
+.dropdown-subtitle li{
+    display: none;
+    
+    }
+.editions li{
+display: none;
+}
+
+#gear_dropdown:hover li{
+display: inline;
+}
